@@ -6,29 +6,13 @@
   grid-template-columns: 150px 1fr;
   grid-template-areas: 
   'h h'
-  's p';
+  'n p';
   /* grid-gap: 10px; */
   min-height: 100vh;
   background-color: darkslateblue;
 }
 
-/* .header {
-  height: 150px;
-  color: white;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 100%;
-  background-image: url('https://cdn.pixabay.com/photo/2016/07/30/19/47/banner-1557834_1280.jpg');
-} */
 
-/* .nav {
-  background-color: darkgrey;
-} */
-
-/* .profile {
-  background-color: palegreen;
-} */
 
 /* .App {
   text-align: center;

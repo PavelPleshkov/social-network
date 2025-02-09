@@ -1,25 +1,25 @@
-import s from './Sidebar.module.css'
+import s from './Navbar.module.css'
 
-function Sidebar() {
+function Navbar() {
   return (
     <nav className={s.nav}>
-      <div>
+      <div className={`${s.item} ${s.active}`}>
         <a href='#'>Profile</a>
       </div>
-      <div>
+      <div className={s.item}>
         <a href='#'>Messages</a>
       </div>
-      <div>
+      <div className={s.item}>
         <a href='#'>News</a>
       </div>
-      <div>
+      <div className={s.item}>
         <a href='#'>Music</a>
       </div>
-      <div>
+      <div className={s.item}>
         <a href='#'>Settings</a>
       </div>
     </nav>
   )
 }
 
-export default Sidebar
+export default Navbar

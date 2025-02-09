@@ -1,0 +1,41 @@
+.nav {
+  grid-area: n;
+  /* background-color: darkgrey; */
+  background-color: #1f1b1b;
+}
+
+.item {
+  color: #fff;
+
+  a {
+    display: block;
+    padding: 10px 10px 10px 20px;
+    color: inherit;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      color: #2b8238
+    }
+
+    &:active {
+      color: #1f5a29;
+    }
+  }
+}
+
+.active {
+  color: #42C455;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: #2b8238;
+    }
+
+    &:active {
+      color: #1f5a29;
+    }
+  }
+}

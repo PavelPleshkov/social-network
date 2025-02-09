@@ -1,5 +1,5 @@
 import s from './Header.module.css'
-import logo_dark from '../images/logo_dark.png'
+import logo_dark from '../../images/logo_dark.png'
 
 function Header() {
   return (

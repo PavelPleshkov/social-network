@@ -1,0 +1,20 @@
+.profile {
+  grid-area: p;
+  background-color: #2b8238;
+
+  .banner {
+    display: block;
+    height: 100px;
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+
+    .avatar {
+      display: block;
+      height: 120px;
+    }
+  }
+}
+

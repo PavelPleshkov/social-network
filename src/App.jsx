@@ -1,13 +1,13 @@
 import './App.css';
-import Header from './Components/Header'
-import Sidebar from './Components/Sidebar'
-import Profile from './Components/Profile';
+import Header from './Components/Header/Header'
+import Navbar from './Components/Navbar/Navbar'
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Sidebar />
+      <Navbar />
       <Profile />
     </div>
   );
