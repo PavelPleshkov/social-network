@@ -1,3 +1,17 @@
 .header {
-  background-color: bisque;
+  /* height: 150px; */
+  grid-area: h;
+  color: white;
+  background-color: #1f1b1b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 100%;
+  /* background-image: url('https://cdn.pixabay.com/photo/2016/07/30/19/47/banner-1557834_1280.jpg'); */
+}
+
+.logo {
+  display: block;
+  /* border-radius: 0px 10px 10px 0px; */
+  height: 100px;
+  /* padding: 25px 0; */
 }

@@ -1,10 +1,10 @@
-import './Header.module.css'
+import s from './Header.module.css'
+import logo_dark from '../images/logo_dark.png'
 
 function Header() {
   return (
-    <header className='header'>
-      Header
-      {/* <img src='https://png.pngtree.com/png-vector/20220713/ourmid/pngtree-border-header-for-blue-green-wave-flye-png-image_5933100.png' alt='header'/> */}
+    <header className={s.header}>
+      <img className={s.logo} src={logo_dark} alt='logo'/>
     </header>
   )
 }

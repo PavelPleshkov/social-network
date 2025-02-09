@@ -1,0 +1,10 @@
+.profile {
+  grid-area: p;
+  background-color: palegreen;
+}
+
+.headpic {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
