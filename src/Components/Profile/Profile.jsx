@@ -10,9 +10,9 @@ function Profile() {
         <img className={s.banner} src={banner} alt='profile poster' />
       </div>
       <div className={s.container}>
-        <div>
+        <div className={s.userInfo}>
           <img className={s.avatar} src={no_avatar} alt='avatar' />
-          <div>
+          <div className={s.description}>
             Description
           </div>
         </div>

@@ -7,7 +7,7 @@ function Post(props) {
     <div className={s.post}>
       <img src={avatarCat} alt="post avatar" />
       {props.message}
-      <div>{props.likes} likes</div>
+      <div>{props.likesCount} likes</div>
     </div>
   )
 }
