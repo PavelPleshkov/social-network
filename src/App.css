@@ -4,12 +4,18 @@
   display: grid;
   grid-template-rows: auto 1fr;
   grid-template-columns: 150px 1fr;
-  grid-template-areas: 
-  'h h'
-  'n p';
+  grid-template-areas:
+    'h h'
+    'n p';
   /* grid-gap: 10px; */
   min-height: 100vh;
-  background-color: darkslateblue;
+  /* background-color: darkslateblue; */
+  background-color: #2b8238;
+  color: #fff;
+
+  .App-content {
+    grid-area: p;
+  }
 }
 
 
