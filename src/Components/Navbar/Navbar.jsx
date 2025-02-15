@@ -1,4 +1,4 @@
-import s from './Navbar.module.css'
+import s from './Navbar.module.css';
 
 function Navbar() {
   return (
@@ -22,4 +22,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
