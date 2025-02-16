@@ -1,0 +1,34 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  /* grid-template-rows: 1fr; */
+  background-color: #fff;
+  color: #1f1b1b;
+  min-height: 100%;
+
+  .dialogsItems {
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+
+    .dialog {
+      border: 1px solid #000;
+    }
+
+    .active {
+      color: gold;
+    }
+  }
+
+  .messages {
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+    .message {
+      border: 1px solid #000
+    }
+  }
+
+
+}
