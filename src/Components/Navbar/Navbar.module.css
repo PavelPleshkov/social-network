@@ -22,9 +22,23 @@
       color: #1f5a29;
     }
   }
+
+  a.active {
+    color: #42C455;
+
+    &:hover {
+      color: #2b8238
+    }
+
+    &:active {
+      color: #1f5a29;
+    }
+  }
+
+  
 }
 
-.active {
+/* .active {
   color: #42C455;
 
   a {
@@ -38,4 +52,4 @@
       color: #1f5a29;
     }
   }
-}
+} */
