@@ -21,9 +21,13 @@
     &:active {
       color: #1f5a29;
     }
+
+    &.active {
+      color: #42C455;
+    }
   }
 
-  a.active {
+  /* a.active {
     color: #42C455;
 
     &:hover {
@@ -33,7 +37,7 @@
     &:active {
       color: #1f5a29;
     }
-  }
+  } */
 
   
 }
