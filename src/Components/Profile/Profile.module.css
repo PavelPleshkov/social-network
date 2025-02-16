@@ -1,32 +1,6 @@
 .profile {
   /* grid-area: p; */
   /* background-color: #2b8238; */
-
-  .banner {
-    display: block;
-    height: 100px;
-    width: 100%;
-  }
-
-  .container {
-    padding: 10px;
-
-    .userInfo {
-      display: grid;
-      grid-template-columns: 130px 1fr;
-      grid-template-rows: 130px;
-
-      .avatar {
-        justify-self: start;
-        align-self: start;
-        display: block;
-        height: 120px;
-      }
-
-      .description {
-        /* padding: 5px */
-      }
-    }
-  }
+  /* padding: 10px; */
 }
 

@@ -1,0 +1,23 @@
+.banner {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+.userInfo {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  grid-template-rows: 130px;
+  padding: 10px;
+
+  .avatar {
+    justify-self: start;
+    align-self: start;
+    display: block;
+    height: 120px;
+  }
+
+  .description {
+    padding: 5px
+  }
+}
